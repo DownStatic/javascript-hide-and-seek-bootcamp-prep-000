@@ -18,5 +18,5 @@ function deepestChild(){
   while (typeof(grand.children[0]) != 'undefined') {
     grand = grand.children[0]
   }
-  return grand.children
+  return grand
 }
